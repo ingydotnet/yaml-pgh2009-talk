@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>007.yaml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "006" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "008" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+
+    # Outline for YAML Talk
+    
+    --- !Outline
+    - Intro to YAML by Examples
+    - The Bad, The Good and the Ingy
+    - YAML Vocabulary
+    - TPF YAML Project
+    - YAML Theory: [Model, Stack, Events, Schema]
+    - Real World YAML
+    - The History of YAML and Implementations
+    - YAML::Perl
+    - YAML2
+    - YAML News
+    - Ingy and the Hackathon
+
+
+
+
+</pre>
+</body>
