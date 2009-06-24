@@ -1,0 +1,37 @@
+== Topics
+
+* Acmeism
+* TestML
+* ysh
+
+
+== To Do
+
+- Fix vroom centering
+
+
+= YAML - The Bad, the Good and the Ingy
+
+== YAML - The Bad
+- Started in April 2001 (over 8 years ago)
+- Many Incompatible Implementations
+- Very complex specification
+- 1.2 specification is not released
+- No implementation (not even libyaml) fully matches the spec
+- Terrible vim syntax highlighting
+
+== YAML - The Good
+- Fairly Ubiquitous - Everybody's using it
+- Acmeism - Works for all modern prgramming languages
+- Simple for simple stuff
+- Deep for hard stuff
+- New O'Reilly book and OSCON talk!
+
+== YAML - The Ingy
+
+- Ingy is one of the 3 authors of YAML
+- Ingy is the only Perl person of the 3
+- Everyone assumes Ingy will do everything YAML related
+- Ingy is not the best Perl programmer
+- But he's getting better
+
